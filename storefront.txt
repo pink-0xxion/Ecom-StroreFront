@@ -1,0 +1,42 @@
+Technology used
+Frontend
+	React
+	Vite
+	Javascript (ES6)
+	Bootstrap
+	Fetch API
+
+Backend
+	Spring Boot
+	Spring data JPA
+	Hibernate
+	MySQL
+
+Additional
+	CORES
+	CommandLineRunner for seeding
+
+Depedencies
+	Spring Web
+	Lombok
+	Spring Data JPA
+	MySQL Driver
+links
+	https://placehold.co/	<--for image place holder
+	https://jsonlint.com/
+
+Annotation
+@Entity
+@Data
+@ManyToOne
+@JoinColumn(name = "category_id", nullable = false)
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+@OneToMany(mappedBy = "category", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+@RestController
+@RequestMapping("/api/categories")
+@GetMapping
+@Repository
+@Service
+@PathVariable
+@Component

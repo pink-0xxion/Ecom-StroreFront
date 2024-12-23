@@ -1,0 +1,11 @@
+installing bootstrap
+	> npm install bootstrap react-bootstrap
+
+
+
+/*
+col-lg-4 col-md-6 col-sm-12 <---ultimate solution
+Large screen (lg): Takes 4 columns → 3 (12/4=3) items in a row.
+Medium screen (md): Takes 6 columns → 2 (12/2=6) items in a row.
+Small screen (sm): Takes 12 columns → 1 (12/12=1) items in a row.
+*/
